@@ -1,4 +1,4 @@
-@Library('tomcat_deployment@main') _
+@Library('tomcat_deployment@master') _
 
 pipeline {
     agent any
@@ -11,7 +11,7 @@ pipeline {
         stage('Git Checkout'){
             steps{
                   gitCheckout(
-                               branch: "main",
+                               branch: "master",
                                url: "https://github.com/harith2207/tomcat-hello-world.git"
                               )
             }
