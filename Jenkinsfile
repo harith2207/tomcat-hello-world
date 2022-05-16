@@ -1,4 +1,4 @@
-@Library('tomcat_deployment@master') _
+@Library('tomcat-hello-world@master') _
 
 pipeline {
     agent any
